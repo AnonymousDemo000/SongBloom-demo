@@ -52,8 +52,8 @@ function createAudioHTML(path) {
   
   $(document).ready(function() {
   
-    generateTextToSongTable('gen_cn',17, 'cn')
+    generateTextToSongTable('gen_cn',16, 'cn')
     generateTextToSongTable('gen_en',13, 'en')
 
-    generateTextToSongTable('gen_real',9, 'real')
+    // generateTextToSongTable('gen_real',9, 'real')
   });
